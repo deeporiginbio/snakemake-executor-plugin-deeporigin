@@ -78,8 +78,6 @@ common_settings = CommonSettings(
     pass_envvar_declarations_to_cmd=False,
     auto_deploy_default_storage_provider=True,
 )
-
-
 # Required:
 # Implementation of your executor
 class Executor(RemoteExecutor):
@@ -434,7 +432,7 @@ class Executor(RemoteExecutor):
 
 UUID_NAMESPACE = uuid.uuid5(
     uuid.NAMESPACE_URL,
-    "https://github.com/snakemake/snakemake-executor-plugin-kubernetes",
+    "https://github.com/formiclabs/snakemake-executor-plugin-deeporigin",
 )
 
 

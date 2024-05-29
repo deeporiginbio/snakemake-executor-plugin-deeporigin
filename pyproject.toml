@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "snakemake-executor-plugin-kubernetes"
+name = "snakemake-executor-plugin-deeporigin"
 version = "0.1.5"
 description = "A snakemake executor plugin for submission of jobs to Kubernetes"
-authors = ["Johannes Koester <johannes.koester@uni-due.de>"]
+authors = ["Bilal Shaikh <bilalshaikh42@gmail.com>"]
 readme = "README.md"
 license = "MIT"
-repository = "https://github.com/snakemake/snakemake-executor-plugin-kubernetes"
+repository = "https://github.com/formiclabs/snakemake-executor-plugin-deeporigin"
 documentation = "https://snakemake.github.io/snakemake-plugin-catalog/plugins/executor/kubernetes.html"
 keywords = ["snakemake", "plugin", "executor", "cloud", "kubernetes"]
 
@@ -21,7 +21,7 @@ flake8 = "^6.1.0"
 coverage = "^7.3.1"
 pytest = "^7.4.1"
 snakemake = {git = "https://github.com/snakemake/snakemake.git"}
-snakemake-storage-plugin-s3 = "^0.2.7"
+snakemake-storage-plugin-deeporigin = "^0.2.7"
 
 [tool.coverage.run]
 omit = [".*", "*/site-packages/*", "Snakefile"]

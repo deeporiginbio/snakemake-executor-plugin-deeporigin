@@ -15,7 +15,7 @@ jobs:
         id: release
         with:
           release-type: python
-          package-name: snakemake-executor-plugin-kubernetes
+          package-name: snakemake-executor-plugin-deeporigin
 
   publish:
     runs-on: ubuntu-latest
