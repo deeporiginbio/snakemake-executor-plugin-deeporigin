@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.2](https://github.com/formiclabs/snakemake-executor-plugin-deeporigin/compare/v0.0.1...v0.0.2) (2024-05-30)
+
+
+### Bug Fixes
+
+* release and formatting ([0f2fe36](https://github.com/formiclabs/snakemake-executor-plugin-deeporigin/commit/0f2fe365bc11c5c03d672a32b4e9cdfed5c9489b))
+
 ## [0.1.5](https://github.com/snakemake/snakemake-executor-plugin-kubernetes/compare/v0.1.4...v0.1.5) (2024-03-12)
 
 
