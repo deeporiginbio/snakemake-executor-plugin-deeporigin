@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.3](https://github.com/formiclabs/snakemake-executor-plugin-deeporigin/compare/v0.0.2...v0.0.3) (2024-06-03)
+
+
+### Bug Fixes
+
+* dependencies ([ffc577d](https://github.com/formiclabs/snakemake-executor-plugin-deeporigin/commit/ffc577dcf0982e270d3e20b803ee587e4982eef5))
+* dependencies ([58301c4](https://github.com/formiclabs/snakemake-executor-plugin-deeporigin/commit/58301c4b0ef093444404f72b9ee7bc07d44a14b9))
+
 ## [0.0.2](https://github.com/formiclabs/snakemake-executor-plugin-deeporigin/compare/v0.0.1...v0.0.2) (2024-05-30)
 
 
