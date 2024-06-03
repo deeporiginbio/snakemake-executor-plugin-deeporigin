@@ -4,7 +4,7 @@ import snakemake.common.tests
 import snakemake.settings
 from snakemake_interface_executor_plugins.settings import ExecutorSettingsBase
 
-from snakemake_executor_plugin_kubernetes import ExecutorSettings
+from snakemake_executor_plugin_deeporigin import ExecutorSettings
 
 
 BUCKET_NAME = "snakemake-testing-kubernetes-%s-bucket" % next(
