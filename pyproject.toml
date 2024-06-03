@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "snakemake-executor-plugin-deeporigin"
-version = "0.0.2"
+version = "0.0.3"
 description = "A snakemake executor plugin for submission of jobs to Kubernetes"
 authors = ["Bilal Shaikh <bilalshaikh42@gmail.com>"]
 readme = "README.md"
