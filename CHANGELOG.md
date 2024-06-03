@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.0](https://github.com/formiclabs/snakemake-executor-plugin-deeporigin/compare/v0.0.3...v0.1.0) (2024-06-03)
+
+
+### Features
+
+* add ability to run in cluster ([cf43bb9](https://github.com/formiclabs/snakemake-executor-plugin-deeporigin/commit/cf43bb9cd7c64c7973b6b035085d6328e5f2493a))
+
 ## [0.0.3](https://github.com/formiclabs/snakemake-executor-plugin-deeporigin/compare/v0.0.2...v0.0.3) (2024-06-03)
 
 
