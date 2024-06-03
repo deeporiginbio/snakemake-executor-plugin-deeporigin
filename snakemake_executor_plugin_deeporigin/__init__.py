@@ -84,7 +84,6 @@ common_settings = CommonSettings(
 # Implementation of your executor
 class Executor(RemoteExecutor):
     def __post_init__(self):
-
         try:
             kubernetes.config.load_kube_config()
         except kubernetes.config.config_exception.ConfigException:
