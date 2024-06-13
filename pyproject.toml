@@ -2,11 +2,11 @@
 name = "snakemake-executor-plugin-deeporigin"
 version = "0.1.0"
 description = "A snakemake executor plugin for submission of jobs to Kubernetes"
-authors = ["Bilal Shaikh <bilalshaikh42@gmail.com>"]
+authors = ["Bilal Shaikh <bilalshaikh42@gmail.com>", "Johannes Koester <johannes.koester@uni-due.de>" ]
 readme = "README.md"
 license = "MIT"
-repository = "https://github.com/formiclabs/snakemake-executor-plugin-deeporigin"
-documentation = "https://snakemake.github.io/snakemake-plugin-catalog/plugins/executor/kubernetes.html"
+repository = "https://github.com/deeporiginbio/snakemake-executor-plugin-deeporigin"
+documentation = "https://snakemake.github.io/snakemake-plugin-catalog/plugins/executor/deeporigin.html"
 keywords = ["snakemake", "plugin", "executor", "cloud", "kubernetes"]
 
 [tool.poetry.dependencies]

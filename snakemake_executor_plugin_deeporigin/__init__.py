@@ -437,7 +437,7 @@ class Executor(RemoteExecutor):
 
 UUID_NAMESPACE = uuid.uuid5(
     uuid.NAMESPACE_URL,
-    "https://github.com/formiclabs/snakemake-executor-plugin-deeporigin",
+    "https://github.com/deeporiginbio/snakemake-executor-plugin-deeporigin",
 )
 
 
