@@ -153,6 +153,12 @@ class Executor(RemoteExecutor):
         if self.k8s_service_account_name:
             body.spec.service_account_name = self.k8s_service_account_name
 
+        # Add tolerations for deeporigin jobs
+        body.spec.tolerations = [
+            kubernetes.client.V1Toleration(
+                key="deeporigin.io/workflow-node", operator="Exists"
+            )
+        ]
         # fail on first error
         body.spec.restart_policy = "Never"
 
