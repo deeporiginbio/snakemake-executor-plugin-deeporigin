@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.0](https://github.com/deeporiginbio/snakemake-executor-plugin-deeporigin/compare/v0.1.0...v0.2.0) (2024-06-21)
+
+
+### Features
+
+* add workflow node toleration ([1b1ea9e](https://github.com/deeporiginbio/snakemake-executor-plugin-deeporigin/commit/1b1ea9ef7cd5c3c03e1ff55fa8bb7ca7663fad88))
+
+
+### Bug Fixes
+
+* metadata update ([2488750](https://github.com/deeporiginbio/snakemake-executor-plugin-deeporigin/commit/2488750782464c0952238888a642a71eefe1c101))
+
 ## [0.1.0](https://github.com/formiclabs/snakemake-executor-plugin-deeporigin/compare/v0.0.3...v0.1.0) (2024-06-03)
 
 
