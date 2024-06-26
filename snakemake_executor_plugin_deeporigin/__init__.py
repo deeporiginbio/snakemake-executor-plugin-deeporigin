@@ -145,6 +145,9 @@ class Executor(RemoteExecutor):
             node_selector["node.kubernetes.io/instance-type"] = job.resources[
                 "machine_type"
             ]
+        # deep origin specific node selector
+        # TODO will this conflict with above if resources are specified in the job?
+        node_selector["deeporigin.io/node-type"] = "workflow"
 
         body.spec = kubernetes.client.V1PodSpec(
             containers=[container], node_selector=node_selector
