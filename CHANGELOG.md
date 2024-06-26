@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/deeporiginbio/snakemake-executor-plugin-deeporigin/compare/v0.2.0...v0.3.0) (2024-06-26)
+
+
+### Features
+
+* add workflow node selector ([5c4b56b](https://github.com/deeporiginbio/snakemake-executor-plugin-deeporigin/commit/5c4b56b926712f8a77196e8e88ece08e65add492))
+
 ## [0.2.0](https://github.com/deeporiginbio/snakemake-executor-plugin-deeporigin/compare/v0.1.0...v0.2.0) (2024-06-21)
 
 
